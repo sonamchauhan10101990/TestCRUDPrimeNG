@@ -1,0 +1,196 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some content",
+      "postId": 1
+    }
+  ],
+  "ProData": [
+    {
+      "id": "b290",
+      "title": "OnePlus 108 cm (43 inches)",
+      "price": "30000",
+      "description": "OnePlus LED TVs are more energy-efficient",
+      "category": "Smart TV"
+    },
+    {
+      "id": "dd37",
+      "title": "LG HD LED TV 81 cm (55 inches)",
+      "price": "45990",
+      "description": "LG LED TVs are more energy-efficient",
+      "category": "HD LED TV"
+    },
+    {
+      "id": "13f5",
+      "title": "LLOYD 43US850E 43 Inch LED 4K",
+      "price": "43000",
+      "description": "LLYOD LED TVs are more energy-efficient",
+      "category": "4K Ultra HD TV"
+    },
+    {
+      "id": "429a",
+      "title": "Intex LED-SFF4310 50 Inch LED Full HD",
+      "price": "55000",
+      "description": "Intex LED TVs are more energy-efficient",
+      "category": "8K Ultra HD TV"
+    },
+    {
+      "id": "f2f4",
+      "title": "Redmi 108 cm (43 inches)",
+      "price": "25000",
+      "description": "Redmi LED TVs are more energy-efficient",
+      "category": "OLED TV"
+    },
+    {
+      "id": "d193",
+      "title": "TCL 139 cm (55 inches)",
+      "price": "44900",
+      "description": "TCL LED TVs are more energy-efficient",
+      "category": "QLED TV"
+    },
+    {
+      "id": "d47c",
+      "title": "Samsung 138 cm (55 Inches)",
+      "price": "65000",
+      "description": "TCL LED TVs are more energy-efficient",
+      "category": "Full HD LED TV"
+    },
+    {
+      "id": "2544",
+      "title": "Sony 138 cm (50 Inches)",
+      "price": "57000",
+      "description": "Sony LED TVs are more energy-efficient",
+      "category": "8K Ultra HD TV"
+    },
+    {
+      "id": "4a00",
+      "title": "Realme 138 cm (50 Inches)",
+      "price": "23000",
+      "description": "Realme LED TVs are more energy-efficient",
+      "category": "OLED TV"
+    },
+    {
+      "id": "013d",
+      "title": "Panasonic 135 cm (55 Inches)",
+      "price": "60000",
+      "description": "Panasonic LED TVs are more energy-efficient",
+      "category": "Smart TV"
+    },
+    {
+      "id": "4378",
+      "title": "Samsung",
+      "price": "1000",
+      "description": "samsung 001",
+      "category": "mobile"
+    },
+    {
+      "id": "1311",
+      "title": "Samsung",
+      "price": "1000",
+      "description": "samsung 001",
+      "category": "mobile"
+    },
+    {
+      "id": "0564",
+      "title": "Samsung",
+      "price": "1000",
+      "description": "samsung 001",
+      "category": "mobile"
+    },
+    {
+      "id": "69d9",
+      "title": "Samsung",
+      "price": "1000",
+      "description": "samsung 001",
+      "category": "mobile"
+    },
+    {
+      "id": "8a42",
+      "title": "Samsung",
+      "price": "1000",
+      "description": "samsung 001",
+      "category": "mobile"
+    },
+    {
+      "id": "4686",
+      "title": "Samsung",
+      "price": "1000",
+      "description": "samsung 001",
+      "category": "mobile"
+    },
+    {
+      "id": "3898",
+      "title": "Samsung",
+      "price": "1000",
+      "description": "samsung 001",
+      "category": "mobile"
+    },
+    {
+      "id": "cb4e",
+      "title": "Samsung",
+      "price": "1000",
+      "description": "samsung 001",
+      "category": "mobile"
+    },
+    {
+      "id": "eec9",
+      "title": "wef",
+      "price": "2",
+      "description": "ed",
+      "category": "kjhjh"
+    },
+    {
+      "id": "1834",
+      "title": "oppo",
+      "price": "5000",
+      "description": "oppo-170",
+      "category": "laptop"
+    },
+    {
+      "id": "efcc",
+      "title": "mdhj",
+      "price": "788",
+      "description": "mdchjg",
+      "category": "jdhcj"
+    },
+    {
+      "id": "419a",
+      "title": "mhjg",
+      "price": "8767",
+      "description": "jgdhg",
+      "category": "jhgsd"
+    },
+    {
+      "id": "3930",
+      "title": "mdebj",
+      "price": "878",
+      "description": "mnsdc",
+      "category": "mnsdchj"
+    },
+    {
+      "id": "2c12",
+      "title": "mdh",
+      "price": "78",
+      "description": "nghgfhg",
+      "category": "mnghf"
+    },
+    {
+      "id": "6a92",
+      "title": "mdjh",
+      "price": "7",
+      "description": "sdjchj",
+      "category": "msdgh"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

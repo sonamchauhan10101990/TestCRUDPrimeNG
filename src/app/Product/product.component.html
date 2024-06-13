@@ -1,0 +1,63 @@
+<button 
+    pButton 
+    pRipple 
+    label="Add Product" 
+    class="p-button-primary"
+    (click)="showAddModal()">
+</button>&nbsp;&nbsp;
+
+<p-table [value]="products" [paginator]="true" [rows]="10">
+    <ng-template pTemplate="header">
+        <tr>
+           
+            <th>Title</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th></th>
+            <th></th>
+            
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-product>
+        <tr>
+           <td>{{product.title}}</td>
+           <td>{{product.price}}</td>
+           <td>{{product.description}}</td>
+           <td>{{product.category}}</td>
+           <td>
+            <button  pButton icon="pi pi-pencil" pRipple class="p-button-round p-button-success mr-2"
+           (click)="showEditModal(product)">
+           </button>&nbsp;
+           <button  pButton icon="pi pi-trash" pRipple class="p-button-round p-button-warning mr-2"
+           (click)="DeleteProduct(product)">
+           </button>
+           </td>
+           
+        </tr>
+    </ng-template>
+</p-table>
+
+<app-add-edit-product
+ [displayAddEditModal]="displayAddEditModal"
+ [selectedProduct]="selectedProduct"
+ (clickClose)="hideAddModal($event)"
+ (clickAddEdit)="SaveOrUpdateProduct($event)"
+ ></app-add-edit-product>
+ <button 
+ type="button" 
+ pRipple 
+ label="Show" 
+ styleClass="mr-2"></button>
+
+ 
+
+
+
+
+
+
+
+
+
+

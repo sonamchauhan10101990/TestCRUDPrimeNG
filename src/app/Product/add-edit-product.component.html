@@ -1,0 +1,55 @@
+<p-dialog header="{{modalType}} Product" [modal]="true" [(visible)]="displayAddEditModal"  [style]="{ width: '25rem' }">
+    <form [formGroup]="productForm">
+        <div class="field">
+            <label class="block">Title</label>
+            <input pInputText id="title" aria-describedby="title-help" formControlName="title"/>
+            <small 
+                class="p-error block" 
+                *ngIf="
+                productForm.controls['title'].invalid && 
+                productForm.controls['title'].dirty ">Field is Required
+            </small>
+        </div>
+
+        <div class="field">
+            <label class="block">Price</label><br>
+            <input p-inputNumber   id="price" formControlName="price"/>
+            <small 
+            class="p-error block" 
+            *ngIf="
+            productForm.controls['price'].invalid && 
+            productForm.controls['price'].dirty ">Field is Required
+        </small>
+        </div>
+
+        <div class="field">
+            <label class="block">Description</label>
+            <textarea  pInputTextarea id="description" formControlName="description"></textarea>
+            <small 
+            class="p-error block" 
+            *ngIf="
+            productForm.controls['description'].invalid && 
+            productForm.controls['description'].dirty ">Field is Required
+        </small>
+        </div>
+
+        <div class="Category">
+            <label class="block">Category</label>
+            <input pInputText   id="category" formControlName="category" />
+            <small 
+            class="p-error block" 
+            *ngIf="
+            productForm.controls['category'].invalid && 
+            productForm.controls['category'].dirty ">Field is Required
+        </small>
+        </div>
+    </form>
+    <div class="margin-gap">
+    <div class="flex justify-content-end gap">
+        <button pButton  pRipple label="Cancel" class="p-button-danger" (click)="CloseModal()">
+        </button>&nbsp;
+        <button pButton  pRipple label="{{modalType}}" [disabled]="productForm.invalid" class="p-button-info" (click)="addEditProduct()">
+        </button>
+    </div>
+</div>
+</p-dialog>
